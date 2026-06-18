@@ -1,0 +1,66 @@
+/* Premium SVG icon system */
+.icon {
+  width: 28px;
+  height: 28px;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 1.75;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.icon--lg {
+  width: 36px;
+  height: 36px;
+}
+
+.trust-card__icon svg,
+.insurance-card__icon svg,
+.comfort-item__icon svg {
+  width: 28px;
+  height: 28px;
+  stroke: var(--blue-deep);
+}
+
+.hero__trust-icon svg {
+  width: 20px;
+  height: 20px;
+  stroke: white;
+}
+
+.team-card__icon-wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(145deg, var(--blue-pale) 0%, #dceef8 50%, var(--stone) 100%);
+}
+
+.team-card__icon-wrap svg {
+  width: 64px;
+  height: 64px;
+  stroke: var(--blue);
+  opacity: 0.55;
+}
+
+.team-card__visual--photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.comfort-item__icon svg,
+.insurance-card__icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.community-card .comfort-item__icon {
+  color: var(--blue-deep);
+}
+
+.community-card .comfort-item__icon svg {
+  stroke: var(--blue-deep);
+}
